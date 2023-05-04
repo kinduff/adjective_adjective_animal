@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "adjective_adjective_animal"
+
+require "irb"
+IRB.start(__FILE__)

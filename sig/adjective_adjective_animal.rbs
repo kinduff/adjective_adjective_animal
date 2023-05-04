@@ -1,0 +1,9 @@
+# typed: true
+
+module AdjectiveAdjectiveAnimal
+  VERSION: String
+  ADJECTIVES: Array[String]
+  ANIMALS: Array[String]
+
+  def self.call(separator: String = "-", seed: Integer? = nil) -> String
+end
